@@ -1,0 +1,14 @@
+html{
+    font-size: 40px;
+    color: #fff;
+    height: 100%;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Tangerine", serif;
+    background-image: url(/images/Background_Html.jpg);
+    background-size: contain;
+    background-repeat: inherit;
+    background-color: rgba(127, 190, 38, 0.734);
+    }
