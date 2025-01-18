@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Mogra&family=Tangerine:wght@400;700&display=swap');
+
+html{
+    font-size: 25px;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "EB Garamond", serif;
+    height: 100%;
+    text-align: justify;
+    border: 10px solid rgb(128, 128, 128);
+    background-image: url(../images/Background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bg-overlay{
+    position: fixed;
+    color: #8e0c0cfa;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    opacity: 5;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    align-self: auto;
+    width: 80%;
+    scroll-behavior: smooth;
+}
+
+td,
+th {
+    border: 3px solid #f4dbfc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #19123e;
+    color: #fff;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+.good {
+    color: rgb(10, 192, 10);
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+div {
+    background-color: rgba(36, 23, 101, 0.277);
+    padding: 30px;
+    margin: 30px 0;
+}
+
+
+div img {
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 25%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
